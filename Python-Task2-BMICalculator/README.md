@@ -1,47 +1,24 @@
 BMI Calculator
 
-Project Overview
 
-The BMI Calculator is a Python application that calculates Body Mass Index using the user's weight and height.
 
-It displays the BMI value, category, and a personalized message through a colorful terminal interface.
+This project is a BMI Calculator built using Python for my Oasis Infobyte Internship Task.
 
-Features
+Nowadays, most of us don't know if our weight is correct for our height. This application helps to check our health status in seconds. When we run the program, it asks for our name, weight in kg and height in cm. After entering the details, it calculates BMI and shows the BMI value, health category and a personalized health message in a colorful terminal with a BMI visual bar.
 
-- User name input
-- Weight and height input
-- Automatic BMI calculation
-- Four BMI categories
-- Colorful terminal output
-- BMI visual bar
-- Input validation
-- Error handling
-- Option to calculate BMI again
+Features of this project are user name input, weight and height input, automatic BMI calculation, four BMI categories, colorful terminal output, BMI visual bar, input validation, error handling and option to calculate BMI again.
 
-BMI Formula
+Technologies used in this project are Python 3, Pydroid 3 and Colorama library. Colorama is used to make the terminal output colorful and attractive. Pydroid 3 is used to run and test the program on mobile.
 
-BMI = Weight (kg) / Height (m)²
-
-BMI Categories
-
-- Underweight: Below 18.5
-- Normal: 18.5–24.9
-- Overweight: 25–29.9
-- Obese: 30 and above
-
-Technologies Used
-
-- Python 3
-- Pydroid 3
-- Colorama
+I have added input validation and error handling, so even if the user enters a wrong value, the program will not stop. This project helped me to learn Python basics and how to build a real-life health application in a simple and user-friendly way.
 
 How to Run
 
 1. Install Python 3 or Pydroid 3.
-2. Install Colorama using "pip install colorama".
-3. Open "bmi_calculator.py".
-4. Run the program.
-5. Enter your name, weight, and height.
+
+2. Open "bmi_calculator.py".
+3. Run the program.
+4. Enter your name, weight, and height.
 
 Developer
 
